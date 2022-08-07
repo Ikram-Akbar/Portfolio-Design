@@ -1,0 +1,8 @@
+Nav items
+....
+Home      About      Expertise      Skills      Gallery      Story      Client       Contact
+
+banner content : 
+........
+awesome
+personal template FOREVER
