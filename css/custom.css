@@ -1,0 +1,76 @@
+/* universal CSS  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* end universal css  */
+
+/* more css for stop repitition  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/***** Header part  *****/
+header {
+    background-color: rgb(30 29 29 / 56%);
+    position: absolute;
+    width: 100%;
+
+}
+
+.nav-link {
+    color: white;
+}
+
+.icon {
+    position: relative;
+}
+
+.icon-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-6%, 6%);
+    z-index: 9999;
+}
+
+/* banner part  */
+.banner {
+    background-image: url('/assets/Banner-Bg-Img.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.custom-banner {
+    min-height: 100vh;
+}
+
+.banner-font {
+    font-size: 50px;
+    color: #f39c12;
+    font-weight: 400;
+}
+
+.text-light {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+
+/***** End Header part  *****/
