@@ -121,4 +121,50 @@ header {
     font-size: 30px;
 }
 
+.progress-bg-color {
+    background-color: #f39c12;
+}
+
 /***** End about me section  *****/
+.single-service {
+    padding: 50px 0;
+    border: 1px solid lightslategrey;
+}
+.single-service:hover {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 50px 0;
+    border-radius: 15px;
+    transition: 0.4s all ease-in-out;
+   
+}
+
+.icon-service {
+    margin: 10px 36%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: lightslategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icon-service i {
+
+    font-size: 30px;
+    color: #fff;
+}
+
+.service-info {}
+
+.service-info h4 {
+    margin: 25px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.service-info p {
+    text-align: center
+}
