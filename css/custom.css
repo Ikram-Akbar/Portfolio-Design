@@ -35,6 +35,10 @@ header {
     color: white;
 }
 
+.nav-link:hover {
+    color: #f39c12;
+}
+
 .icon {
     position: relative;
 }
@@ -79,7 +83,8 @@ header {
     border: 1px solid #fff;
     background: transparent;
 }
-.hero-btn:hover{
+
+.hero-btn:hover {
     background-color: #f39c12;
     transition: 0.4s all ease-in-out;
 }
@@ -87,10 +92,33 @@ header {
 .btn-background {
     background-color: #f39c12;
 }
-.hero-btn a{
+
+.btn-background:hover {
+    background-color: transparent;
+}
+
+.hero-btn a {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
 }
 
+
+
+
+
 /***** End Header part  *****/
+/***** about me section  *****/
+
+.about-text {
+    margin-top: 5px;
+    text-align: justify;
+    text-indent: 2px;
+}
+
+.about-text::first-letter {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+/***** End about me section  *****/
